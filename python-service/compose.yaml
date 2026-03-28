@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  server:
+    container_name: python-service
+    build:
+      context: .
+    ports:
+      - 5560:5560
